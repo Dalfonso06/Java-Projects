@@ -25,8 +25,7 @@ public class Sort {
         for (int i = 0; i < n; i++) { // Adds the numbers to the list.
             
             list[i] = i + 1;
-        }
-        
+        }    
     }
     
     /**
@@ -49,8 +48,7 @@ public class Sort {
             
                 temp = list[i]; // Grabs item at i.
                 list[i] = list[random]; // The item at i will equal item at r.
-                list[random] = temp; // Item at r will equal temporary value.
-            
+                list[random] = temp; // Item at r will equal temporary value.            
             } 
         }
     }
@@ -80,8 +78,7 @@ public class Sort {
                     
                 } else {
                     
-                    break;
-                    
+                    break;                    
                 }
             }
             
@@ -93,10 +90,8 @@ public class Sort {
                 list[u] = list[u - 1];
             }
             
-            list[i - counter] = temp; // Adds that item to its proper location.
-            
-        }
-        
+            list[i - counter] = temp; // Adds that item to its proper location.            
+        }       
     }
     
     /**
