@@ -93,7 +93,7 @@ public class Sort {
                 list[u] = list[u - 1];
             }
             
-            list[i - counter] = temp; // Adds that item to it's proper location.
+            list[i - counter] = temp; // Adds that item to its proper location.
             
         }
         
